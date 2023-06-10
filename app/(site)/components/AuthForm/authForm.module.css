@@ -1,0 +1,65 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 40%;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.strikethrough {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  border: 1px solid #eeeeee;
+}
+
+.strikethrough span {
+  position: absolute;
+  padding-inline: 0.75rem;
+  background-color: white;
+  color: #c1c1c1;
+  transform: translateY(-50%);
+}
+
+.socials {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.variant button {
+  color: #0091ff;
+  cursor: pointer;
+  text-decoration: underline;
+  background: none;
+  border: none;
+  font-size: 1rem;
+}
+
+.variant button:hover {
+  color: #007aff;
+}
+
+.variant button:focus {
+  color: #007aff;
+  font-weight: 600;
+  outline: none;
+}
+
+.variant button:active {
+  color: #0091ff;
+  font-weight: 400;
+}
